@@ -36,18 +36,25 @@ module.exports = function(server) {
         console.log(DATA);
 
         var lookup_email = DATA.email;
+        var lookup_username = DATA.username;
         var lookup_id = DATA.id;
         var lookup_q = DATA.q;
         var lookup_dev = DATA.devSlug;
-        var lookup = lookup_email || lookup_id || lookup_q || lookup_dev;
+        var lookup = lookup_email || lookup_id || lookup_q || lookup_dev || lookup_username;
 
         if (!lookup) {
-            res.json(400, {error: 'Must provide either email or user ID'});
+            res.json(400, {error: 'Must provide either email, username or user ID'});
             done();
             return;
         }
 
         var email = req._email;
+
+        function tryGetUserByEmail
+
+        if(lookup_q || lookup_email) {
+            
+        }
 
         // TODO: Allow searching by username.
         // (i.e., if no results for email, look by username, etc.)
