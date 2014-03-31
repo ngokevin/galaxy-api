@@ -50,28 +50,7 @@ module.exports = function(server) {
 
         var email = req._email;
 
-        function tryGetUserByEmail
-
-        if(lookup_q || lookup_email) {
-            
-        }
-
-        // TODO: Allow searching by username.
-        // (i.e., if no results for email, look by username, etc.)
-        if (lookup_q) {
-            user.getUserIDFromEmail(client, lookup, function(err, obj) {
-                if (err || !obj) {
-                    res.json(400, {error: err || lookup_email ? 'bad_email' : 'bad_id'});
-                    done();
-                    return;
-                }
-                // TODO: Exclude yourself from the object list.
-                user.getPublicUserObjList(client, [obj], function(objs) {
-                    done();
-                    res.json(objs);
-                });
-            });
-        } else if (lookup_dev) {
+        if (lookup_dev) {
             user.getCompanyInfoFromDevSlug(client, lookup, function(err, obj) {
                 if (err || !obj) {
                     res.json(400, {error: err || 'bad_dev_slug'});
@@ -79,29 +58,70 @@ module.exports = function(server) {
                     return;
                 }
                 res.json(obj);
-                done();
             });
-        } else {
-            // Return a single object.
-            (lookup_email ? user.getUserFromEmail : user.getUserFromID)(client, lookup, function(err, obj) {
-                if (err || !obj) {
-                    res.json(400, {error: err || lookup_email ? 'bad_email' : 'bad_id'});
-                    done();
-                    return;
-                }
-                // TODO: Look up `id` from `getUserIDFromEmail` and compare.
-                // We don't necessarily want to exclude user from looking up
-                // himself/herself (think of the case of accessing user
-                // profile page).
+            done();
+            return;
+        }
 
-                // if (obj.email === email) {
-                //     res.json(400, {error: err || 'thats_you_silly'});
-                //     done();
-                //     return;
-                // }
-                res.json(user.publicUserObj(obj));
-                done();
+        function tryFindUser(query, searchFunction) {
+            return new Promise(function (resolve, reject) {
+                searchFunction(client, query, function(err, obj) {
+                    if (err || !obj) {
+                        reject(err);
+                        return;
+                    }
+
+                    resolve(user.publicUserObj(obj));
+                });
             });
         }
+
+        function tryEmail() {
+            return tryFindUser(lookup, user.getUserFromEmail);
+        }
+
+        function tryUsername() {
+            return tryFindUser(lookup, user.getUserFromUsername);
+        }
+
+        function tryID() {
+            return tryFindUser(lookup, user.getUserFromID)
+        }
+
+        var search;
+
+        if (lookup_q) {
+            search = Promise.all([tryEmail(), tryUsername(), tryID()]);
+        } else if (lookup_email) {
+            search = tryEmail();
+        } else if (lookup_username) {
+            search = tryUsername();
+        } else if (lookup_id) {
+            search = tryID();
+        }
+
+        search.then(function (success) {
+            console.log(success);
+            return;
+        }, function(err) {
+            if(!err) {
+                if(lookup_email) {
+                    err = 'bad_email';
+                } else if (lookup_username) {
+                    err = 'bad_username';
+                } else if (lookup_id) {
+                    err = 'bad_id';
+                } else {
+                    err = 'bad_query';
+                }
+            }
+
+            res.json(400, {error: err});
+        }).then(function (result) {
+            res.json(result);
+        });
+
+        done();
+
     }));
 };
