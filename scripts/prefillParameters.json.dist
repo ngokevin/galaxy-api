@@ -60,7 +60,7 @@
             "description": "Serving as Nintendo's mascot and the eponymous protagonist of the series, Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, he repeatedly rescues Princess Peach from the Koopa villain Bowser and stops his numerous plans to destroy him and take over the kingdom. Mario also has other enemies and rivals, including Donkey Kong and Wario.",
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
-            "genre": "adventure",
+            "genre": "action",
             "icons": [
                 {
                     "height": 64,
@@ -164,7 +164,7 @@
             "description": "The creative and building aspects of Minecraft allow players to build constructions out of textured cubes in a 3D procedurally generated world. Other activities in the game include exploration, gathering resources, crafting, and combat.",
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
-            "genre": "action",
+            "genre": "adventure",
             "icons": [
                 {
                     "height": 64,
@@ -215,7 +215,7 @@
             "description": "The gameplay of Papers, Please focuses on the work life of an immigration inspector at a border checkpoint for the fictitious country of Arstotzka. The player inspects arrivals' documents and uses an array of tools to determine whether the papers are in order, for the purpose of keeping unwanted individuals, such as terrorists, wanted criminals, or smugglers, out of the country.",
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
-            "genre": "action",
+            "genre": "simulation",
             "icons": [
                 {
                     "height": 64,
@@ -231,7 +231,7 @@
                 "it",
                 "zh-TW"
             ],
-            "name": "Paper Please",
+            "name": "Papers Please",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
@@ -241,7 +241,7 @@
                     "width": 573
                 }
             ],
-            "slug": "paper-please",
+            "slug": "papers-please",
             "videos": [
                 "http://www.youtube.com/watch?v=ApbpdKmf1_8"
             ]
@@ -303,7 +303,7 @@
             "description": "Arkham City is an open world action-adventure game that incorporates elements of stealth game tactics.[13] It is presented from the third-person perspective, showing the playable character on screen and allowing the camera to be freely rotated around them.",
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
-            "genre": "action",
+            "genre": "sports",
             "icons": [
                 {
                     "height": 64,
@@ -352,7 +352,7 @@
             "description": "The game's main storyline is set one year after that of 2011's Batman: Arkham City and follows Batman, at the peak of his ability, as he confronts the supervillain Scarecrow, who has returned to Gotham City to unite Batman's enemies in a plot to finally kill the Dark Knight.",
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
-            "genre": "action",
+            "genre": "strategy",
             "icons": [
                 {
                     "height": 64,
@@ -434,7 +434,7 @@
             "description": "Flappy Bird is a side-scrolling mobile game featuring 2D retro style graphics. The objective is to direct a flying bird, which moves continuously to the right, between each oncoming set of pipes without colliding with them, which otherwise ends the game.",
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
-            "genre": "action",
+            "genre": "adventure",
             "icons": [
                 {
                     "height": 64,
