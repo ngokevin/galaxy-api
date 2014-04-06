@@ -213,18 +213,22 @@ function createUsers() {
     }));
 }
 
-function createTestDeveloper() {
+function createTestDeveloper(isAdmin) {
     var email = 'test_developer' + Math.round(Math.random() * 1000) + '@test.com';
     return createUser(email).then(function(user) {
         return new Promise(function(resolve, reject) {
             // The one thing we can't simulate through real API calls is updating
             // permissions, since we require an existing admin to do that. So here
             // we'll cheat and access the user lib directly.
-            userlib.updateUser(client, user.id, {
+            var data = {
                 permissions: {
                     developer: true
                 }
-            }, function(err, newUserData) {
+            };
+            if (isAdmin) {
+                data.permissions.admin = true;
+            }
+            userlib.updateUser(client, user.id, data, function(err, newUserData) {
                 if (err) {
                     return reject(err);
                 }
@@ -235,12 +239,15 @@ function createTestDeveloper() {
 }
 
 function createGames() {
-    return createTestDeveloper().then(function(devUser) {
+    return createTestDeveloper(true).then(function(devUser) {
         return Promise.all(prefillData.games.map(function(game) {
             game._user = devUser.token;
             return postPromise(API_ENDPOINT + '/game/submit', game, true)
                 .then(function(result) {
-                    return result;
+                    return postPromise(API_ENDPOINT + '/featured', {
+                        _user: devUser.token,
+                        game: result.slug
+                    }, false);
                 });
         }));
     });
