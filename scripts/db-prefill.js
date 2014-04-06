@@ -49,6 +49,8 @@ const API_ENDPOINT = 'http://localhost:' + API_PORT;
 const PREFILL_NAMESPACE = 'galaxy-db-prefill';
 const SIGNAL_NAMES = ['api', 'persona-faker'];
 
+const PERM_ADMIN = {admin: true, developer: true, reviewer: false};
+const PERM_DEVELOPER = {admin: true, developer: false, reviewer: false};
 
 var client = db.redis();
 client.on('ready', function() {
@@ -213,22 +215,14 @@ function createUsers() {
     }));
 }
 
-function createTestDeveloper(isAdmin) {
+function createTestDeveloper(permissions) {
     var email = 'test_developer' + Math.round(Math.random() * 1000) + '@test.com';
     return createUser(email).then(function(user) {
         return new Promise(function(resolve, reject) {
             // The one thing we can't simulate through real API calls is updating
             // permissions, since we require an existing admin to do that. So here
             // we'll cheat and access the user lib directly.
-            var data = {
-                permissions: {
-                    developer: true
-                }
-            };
-            if (isAdmin) {
-                data.permissions.admin = true;
-            }
-            userlib.updateUser(client, user.id, data, function(err, newUserData) {
+            userlib.updateUser(client, user.id, {permissions: permissions}, function(err, newUserData) {
                 if (err) {
                     return reject(err);
                 }
@@ -239,7 +233,7 @@ function createTestDeveloper(isAdmin) {
 }
 
 function createGames() {
-    return createTestDeveloper(true).then(function(devUser) {
+    return createTestDeveloper(PERM_ADMIN).then(function(devUser) {
         return Promise.all(prefillData.games.map(function(game) {
             game._user = devUser.token;
             return postPromise(API_ENDPOINT + '/game/submit', game, true)
