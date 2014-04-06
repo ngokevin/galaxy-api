@@ -8,6 +8,10 @@
             },
             "default_locale": "en",
             "description": "Nutty Ninjas is a real-time shooter that brings the experience of social multiplayer gaming to a whole new level; it is a console-style game that can be played anywhere and anytime, simply with your computer and mobile devices. Multiple players can join a common gameplay screen just by using their mobile devices, and control their ninja character to unleash dangerous weapons at fellow players!",
+            "developer": {
+                "name": "Una Studio",
+                "url": "http://una-org.github.io/"
+            },
             "fullscreen": true,
             "genre": "action",
             "homepage_url": "http://www.nuttyninjas.com",
@@ -58,6 +62,10 @@
             ],
             "default_locale": "it",
             "description": "Serving as Nintendo's mascot and the eponymous protagonist of the series, Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, he repeatedly rescues Princess Peach from the Koopa villain Bowser and stops his numerous plans to destroy him and take over the kingdom. Mario also has other enemies and rivals, including Donkey Kong and Wario.",
+            "developer": {
+                "name": "Nintendo",
+                "url": "http://nintendo.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "action",
@@ -113,6 +121,10 @@
             ],
             "default_locale": "it",
             "description": "Set during the aftermath of an apocalyptic pandemic, the game pits its four protagonists—dubbed the Survivors—against hordes of the infected. There are four game modes: a single-player mode in which allied characters are controlled by AI; a four-player, co-op campaign mode; an eight-player online versus mode; and a four-player survival mode. ",
+            "developer": {
+                "name": "Turtle Rock Studios",
+                "url": "https://www.turtlerockstudios.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "action",
@@ -162,6 +174,10 @@
             ],
             "default_locale": "en",
             "description": "The creative and building aspects of Minecraft allow players to build constructions out of textured cubes in a 3D procedurally generated world. Other activities in the game include exploration, gathering resources, crafting, and combat.",
+            "developer": {
+                "name": "Notch Development AB",
+                "url": "https://www.minecraft.net/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "adventure",
@@ -213,6 +229,10 @@
             ],
             "default_locale": "en",
             "description": "The gameplay of Papers, Please focuses on the work life of an immigration inspector at a border checkpoint for the fictitious country of Arstotzka. The player inspects arrivals' documents and uses an array of tools to determine whether the papers are in order, for the purpose of keeping unwanted individuals, such as terrorists, wanted criminals, or smugglers, out of the country.",
+            "developer": {
+                "name": "Lucas Pope",
+                "url": "http://dukope.com"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "simulation",
@@ -247,7 +267,7 @@
             ]
         },
         {
-            "app_url": "http://localhost/batman-asylum",
+            "app_url": "http://localhost/batman-arkham-asylum",
             "artwork": [
                 {
                     "height": 2560,
@@ -257,6 +277,10 @@
             ],
             "default_locale": "en",
             "description": "Batman: Arkham Asylum is an action-adventure game viewed from the third-person perspective. The playable character is visible on the screen and the camera can be freely rotated around him.[1][5][6] The player controls Batman as he traverses Arkham Asylum, a secure facility for the criminally insane located off the coast of Gotham City",
+            "developer": {
+                "name": "Rocksteady Studios",
+                "url": "http://www.rocksteadyltd.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "action",
@@ -275,7 +299,7 @@
                 "it",
                 "zh-TW"
             ],
-            "name": "Batman Arkham Asylum",
+            "name": "Batman: Arkham Asylum",
             "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
@@ -285,13 +309,13 @@
                     "width": 573
                 }
             ],
-            "slug": "batman-asylum",
+            "slug": "batman-arkham-asylum",
             "videos": [
                 "http://www.youtube.com/watch?v=ApbpdKmf1_8"
             ]
         },
         {
-            "app_url": "http://localhost/batman-city",
+            "app_url": "http://localhost/batman-arkham-city",
             "artwork": [
                 {
                     "height": 2560,
@@ -300,7 +324,11 @@
                 }
             ],
             "default_locale": "en",
-            "description": "Arkham City is an open world action-adventure game that incorporates elements of stealth game tactics.[13] It is presented from the third-person perspective, showing the playable character on screen and allowing the camera to be freely rotated around them.",
+            "description": "Batman: Arkham City is an open world action-adventure game that incorporates elements of stealth game tactics.[13] It is presented from the third-person perspective, showing the playable character on screen and allowing the camera to be freely rotated around them.",
+            "developer": {
+                "name": "Rocksteady Studios",
+                "url": "http://www.rocksteadyltd.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "sports",
@@ -334,13 +362,13 @@
                     "width": 573
                 }
             ],
-            "slug": "batman-city",
+            "slug": "batman-arkham-city",
             "videos": [
                 "http://www.youtube.com/watch?v=ApbpdKmf1_8"
             ]
         },
         {
-            "app_url": "http://localhost/batman-knight",
+            "app_url": "http://localhost/batman-arkham-knight",
             "artwork": [
                 {
                     "height": 2560,
@@ -350,6 +378,10 @@
             ],
             "default_locale": "en",
             "description": "The game's main storyline is set one year after that of 2011's Batman: Arkham City and follows Batman, at the peak of his ability, as he confronts the supervillain Scarecrow, who has returned to Gotham City to unite Batman's enemies in a plot to finally kill the Dark Knight.",
+            "developer": {
+                "name": "Rocksteady Studios",
+                "url": "http://www.rocksteadyltd.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "strategy",
@@ -378,7 +410,7 @@
                     "width": 573
                 }
             ],
-            "slug": "batman-knight"
+            "slug": "batman-arkham-knight"
         },
         {
             "app_url": "http://localhost/2048",
@@ -391,6 +423,10 @@
             ],
             "default_locale": "en",
             "description": "2048 is a single-player online and mobile game in which the objective is to slide tiles on a grid to combine them and create a tile with the number 2048",
+            "developer": {
+                "name": "Gabriele Cirulli",
+                "url": "http://gabrielecirulli.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "action",
@@ -422,7 +458,7 @@
             "slug": "2048"
         },
         {
-            "app_url": "http://localhost/flappy",
+            "app_url": "http://localhost/flappy-bird",
             "artwork": [
                 {
                     "height": 2560,
@@ -432,6 +468,10 @@
             ],
             "default_locale": "en",
             "description": "Flappy Bird is a side-scrolling mobile game featuring 2D retro style graphics. The objective is to direct a flying bird, which moves continuously to the right, between each oncoming set of pipes without colliding with them, which otherwise ends the game.",
+            "developer": {
+                "name": ".GEARS Studios",
+                "url": "http://www.dotgears.com/"
+            },
             "fullscreen": true,
             "homepage_url": "http://cvan.github.io/",
             "genre": "adventure",
