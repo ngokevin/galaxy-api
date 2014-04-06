@@ -14,7 +14,7 @@
             "icons": [
                 {
                     "height": 64,
-                    "src": "http://static4.wikia.nocookie.net/__cb20120318204812/nintendo/en/images/5/5c/Jumping_Mario_Artwork_-_New_Super_Mario_Bros._Wii.png",
+                    "src": "http://una-org.github.io/img/ninja.png",
                     "width": 64
                 }
             ],
@@ -32,24 +32,19 @@
             "screenshots": [
                 {
                     "height": 1024,
-                    "src": "http://www.digitaltrends.com/wp-content/uploads/2011/02/nintendo-new-super-mario-bros-ds-art-screenshot.jpg",
+                    "src": "http://una-org.github.io/img/ss-nutty-ninjas.jpg",
                     "width": 573
                 },
                 {
                     "height": 1024,
-                    "src": "http://splitkick.com/wp-content/uploads/2013/01/newsuper2img.jpg",
+                    "src": "http://una-org.github.io/img/ss-nutty-ninjas-2.jpg",
                     "width": 576
-                },
-                {
-                    "height": 1024,
-                    "src": "http://www.mariowiki.com/images/f/fc/SuperMarioBrosArtwork2.jpg",
-                    "width": 673
                 }
             ],
             "slug":"nutty-ninjas",
             "videos": [
-                "http://www.youtube.com/embed/4kvT0dywaF8",
-                "http://www.youtube.com/embed/1Sow2O8D9Ok"
+                "http://www.youtube.com/watch?v=VkybR0FcsZ8",
+                "http://www.youtube.com/watch?v=otb-EbOpTdI"
             ]
         },
         {
@@ -128,7 +123,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -177,7 +172,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -186,7 +181,7 @@
                 "zh-TW"
             ],
             "name": "Minecraft",
-            "number_of_players": "multiplayer",
+            "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
                 {
@@ -228,7 +223,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -272,7 +267,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -281,7 +276,7 @@
                 "zh-TW"
             ],
             "name": "Batman Arkham Asylum",
-            "number_of_players": "1",
+            "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
                 {
@@ -316,7 +311,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -325,7 +320,7 @@
                 "zh-TW"
             ],
             "name": "Batman Arkham City",
-            "number_of_players": "1",
+            "number_of_players": "2",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
                 {
@@ -365,7 +360,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -406,7 +401,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
@@ -447,7 +442,7 @@
                     "width": 64
                 }
             ],
-            "license": "Commerical",
+            "license": "Commercial",
             "locales": [
                 "en-US",
                 "es",
