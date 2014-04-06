@@ -413,7 +413,7 @@
             "slug": "batman-arkham-knight"
         },
         {
-            "app_url": "http://localhost/2048",
+            "app_url": "http://gabrielecirulli.github.io/2048/",
             "artwork": [
                 {
                     "height": 2560,
