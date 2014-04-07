@@ -50,12 +50,12 @@
                 {
                     "id": "VkybR0FcsZ8",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/VkybR0FcsZ8/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/VkybR0FcsZ8/hqdefault.jpg"
                 },
                 {
                     "id": "otb-EbOpTdI",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/otb-EbOpTdI/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/otb-EbOpTdI/hqdefault.jpg"
                 }
             ]
         },
@@ -117,12 +117,12 @@
                 {
                     "id": "zgnyTVyrmL8",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/zgnyTVyrmL8/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/zgnyTVyrmL8/hqdefault.jpg"
                 },
                 {
                     "id": "26069893",
                     "type": "vimeo",
-                    "screenshot": "http://b.vimeocdn.com/ts/172/021/172021096_640.jpg"
+                    "thumbnail": "http://b.vimeocdn.com/ts/172/021/172021096_640.jpg"
                 }
             ]
         },
@@ -179,12 +179,12 @@
                 {
                     "id": "xWqpibO7tR0",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/xWqpibO7tR0/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/xWqpibO7tR0/hqdefault.jpg"
                 },
                 {
                     "id": "85644886",
                     "type": "vimeo",
-                    "screenshot": "http://i.vimeocdn.com/video/463027240_640.jpg"
+                    "thumbnail": "http://i.vimeocdn.com/video/463027240_640.jpg"
                 }
             ]
         },
@@ -241,12 +241,12 @@
                 {
                     "id": "68271919",
                     "type": "vimeo",
-                    "screenshot": "http://i.vimeocdn.com/video/440515840_640.jpg"
+                    "thumbnail": "http://i.vimeocdn.com/video/440515840_640.jpg"
                 },
                 {
                     "id": "kd1fRxJyeC8",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/kd1fRxJyeC8/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/kd1fRxJyeC8/hqdefault.jpg"
                 }
             ]
         },
@@ -298,12 +298,12 @@
                 {
                     "id": "5BCPESPSsXk",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/5BCPESPSsXk/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/5BCPESPSsXk/hqdefault.jpg"
                 },
                 {
                     "id": "N0CtECB6ilo",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/N0CtECB6ilo/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/N0CtECB6ilo/hqdefault.jpg"
                 }
             ]
         },
@@ -355,7 +355,7 @@
                 {
                     "id": "6300971",
                     "type": "vimeo",
-                    "screenshot": "http://b.vimeocdn.com/ts/233/683/23368394_640.jpg"
+                    "thumbnail": "http://b.vimeocdn.com/ts/233/683/23368394_640.jpg"
                 }
             ]
         },
@@ -412,12 +412,12 @@
                 {
                     "id": "31981061",
                     "type": "vimeo",
-                    "screenshot": "http://b.vimeocdn.com/ts/216/003/216003025_640.jpg"
+                    "thumbnail": "http://b.vimeocdn.com/ts/216/003/216003025_640.jpg"
                 },
                 {
                     "id": "50147796",
                     "type": "vimeo",
-                    "screenshot": "http://i.vimeocdn.com/video/345682568_640.jpg"
+                    "thumbnail": "http://i.vimeocdn.com/video/345682568_640.jpg"
                 }
             ]
         },
@@ -469,7 +469,7 @@
                 {
                     "id": "7BsHpv0BgSY",
                     "type": "youtube",
-                    "screenshot": "//img.youtube.com/vi/7BsHpv0BgSY/hqdefault.jpg"
+                    "thumbnail": "//img.youtube.com/vi/7BsHpv0BgSY/hqdefault.jpg"
                 }
             ]
         },
