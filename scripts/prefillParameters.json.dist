@@ -47,8 +47,16 @@
             ],
             "slug":"nutty-ninjas",
             "videos": [
-                "http://www.youtube.com/watch?v=VkybR0FcsZ8",
-                "http://www.youtube.com/watch?v=otb-EbOpTdI"
+                {
+                    "id": "VkybR0FcsZ8",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/VkybR0FcsZ8/hqdefault.jpg"
+                },
+                {
+                    "id": "otb-EbOpTdI",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/otb-EbOpTdI/hqdefault.jpg"
+                }
             ]
         },
         {
@@ -106,8 +114,16 @@
             ],
             "slug": "mario-bros",
             "videos": [
-                "http://www.youtube.com/embed/mX48y24t9iU",
-                "http://vimeo.com/14628852"
+                {
+                    "id": "zgnyTVyrmL8",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/zgnyTVyrmL8/hqdefault.jpg"
+                },
+                {
+                    "id": "26069893",
+                    "type": "vimeo",
+                    "screenshot": "http://b.vimeocdn.com/ts/172/021/172021096_640.jpg"
+                }
             ]
         },
         {
@@ -143,7 +159,7 @@
                 "it",
                 "zh-TW"
             ],
-            "name": "Left4Dead",
+            "name": "Left 4 Dead",
             "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
@@ -158,9 +174,18 @@
                     "width": 576
                 }
             ],
-            "slug": "left4dead",
+            "slug": "left-4-dead",
             "videos": [
-                "http://www.youtube.com/watch?v=PGC-_o6QteU"
+                {
+                    "id": "xWqpibO7tR0",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/xWqpibO7tR0/hqdefault.jpg"
+                },
+                {
+                    "id": "85644886",
+                    "type": "vimeo",
+                    "screenshot": "http://i.vimeocdn.com/video/463027240_640.jpg"
+                }
             ]
         },
         {
@@ -213,9 +238,16 @@
             ],
             "slug": "minecraft",
             "videos": [
-                "http://www.youtube.com/watch?v=6ctNaBT1xZc",
-                "http://www.youtube.com/watch?v=r9DN7T2m6R8",
-                "http://www.youtube.com/watch?v=FKu_T2Xr31g"
+                {
+                    "id": "68271919",
+                    "type": "vimeo",
+                    "screenshot": "http://i.vimeocdn.com/video/440515840_640.jpg"
+                },
+                {
+                    "id": "kd1fRxJyeC8",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/kd1fRxJyeC8/hqdefault.jpg"
+                }
             ]
         },
         {
@@ -263,7 +295,16 @@
             ],
             "slug": "papers-please",
             "videos": [
-                "http://www.youtube.com/watch?v=ApbpdKmf1_8"
+                {
+                    "id": "5BCPESPSsXk",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/5BCPESPSsXk/hqdefault.jpg"
+                },
+                {
+                    "id": "N0CtECB6ilo",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/N0CtECB6ilo/hqdefault.jpg"
+                }
             ]
         },
         {
@@ -311,7 +352,11 @@
             ],
             "slug": "batman-arkham-asylum",
             "videos": [
-                "http://www.youtube.com/watch?v=ApbpdKmf1_8"
+                {
+                    "id": "6300971",
+                    "type": "vimeo",
+                    "screenshot": "http://b.vimeocdn.com/ts/233/683/23368394_640.jpg"
+                }
             ]
         },
         {
@@ -347,7 +392,7 @@
                 "it",
                 "zh-TW"
             ],
-            "name": "Batman Arkham City",
+            "name": "Batman: Arkham City",
             "number_of_players": "2",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
@@ -364,7 +409,16 @@
             ],
             "slug": "batman-arkham-city",
             "videos": [
-                "http://www.youtube.com/watch?v=ApbpdKmf1_8"
+                {
+                    "id": "31981061",
+                    "type": "vimeo",
+                    "screenshot": "http://b.vimeocdn.com/ts/216/003/216003025_640.jpg"
+                },
+                {
+                    "id": "50147796",
+                    "type": "vimeo",
+                    "screenshot": "http://i.vimeocdn.com/video/345682568_640.jpg"
+                }
             ]
         },
         {
@@ -400,7 +454,7 @@
                 "it",
                 "zh-TW"
             ],
-            "name": "Batman Arkham Knight",
+            "name": "Batman: Arkham Knight",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [
@@ -410,7 +464,14 @@
                     "width": 573
                 }
             ],
-            "slug": "batman-arkham-knight"
+            "slug": "batman-arkham-knight",
+            "videos": [
+                {
+                    "id": "7BsHpv0BgSY",
+                    "type": "youtube",
+                    "screenshot": "//img.youtube.com/vi/7BsHpv0BgSY/hqdefault.jpg"
+                }
+            ]
         },
         {
             "app_url": "http://gabrielecirulli.github.io/2048/",
