@@ -79,7 +79,7 @@ To access the shell on stackato:
 
     cp scripts/prefillParameters.json.dist scripts/prefillParameters.json
 
-    ./scripts/db-prefill.js
+    ./scripts/run-db-prefill.js
 
 To flush the db everytime the script is run, add the following to `settings_local.js`:
     `exports.FLUSH_DB_ON_PREFILL = true;`
@@ -89,3 +89,4 @@ To flush the db everytime the script is run, add the following to `settings_loca
     cp settings_test.js.dist settings_test.js
     ./test/redis_start
     make test
+
