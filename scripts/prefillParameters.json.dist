@@ -34,7 +34,7 @@
             "number_of_players": "multiplayer",
             "privacy_policy_url": "http://una-org.github.io/demos.html",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://una-org.github.io/img/ss-nutty-ninjas.jpg",
@@ -46,7 +46,7 @@
                         "width": 576
                     }
                 ],
-                "16-9": [
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://una-org.github.io/img/ss-nutty-ninjas.jpg",
@@ -105,7 +105,7 @@
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://www.digitaltrends.com/wp-content/uploads/2011/02/nintendo-new-super-mario-bros-ds-art-screenshot.jpg",
@@ -117,7 +117,7 @@
                         "width": 576
                     }
                 ],
-                "16-9": [
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://www.mariowiki.com/images/f/fc/SuperMarioBrosArtwork2.jpg",
@@ -176,14 +176,14 @@
             "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/d/dc/Left_4_Dead_screenshot.jpg",
                         "width": 573
                     }
                 ],
-                "16-9": [
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/2/2b/Left_4_Dead_Director_Intensity.jpg",
@@ -252,8 +252,8 @@
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [],
-                "16-9": [
+                "4_3": [],
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/e/eb/Minecraft_Beta_1.0.2_crafting_a_stone_axe_-_from_Commons.png",
@@ -317,14 +317,14 @@
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/e/e4/Papers_please_gender_discrepancy.jpg",
                         "width": 573
                     }
                 ],
-                "16-9": []
+                "16_9": []
             }],
             "slug": "papers-please",
             "videos": [
@@ -377,14 +377,14 @@
             "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/e/ec/Batman_arkham-detectiveMode.png",
                         "width": 573
                     }
                 ],
-                "16-9": [
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/e/ec/Batman_arkham-detectiveMode.png",
@@ -438,7 +438,7 @@
             "number_of_players": "2",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/5/5d/Batman_-_Arkham_City_combat_screenshot.JPG",
@@ -450,7 +450,7 @@
                         "width": 573
                     }
                 ],
-                "16-9": []
+                "16_9": []
             }],
             "slug": "batman-arkham-city",
             "videos": [
@@ -503,14 +503,14 @@
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/6/6c/Batman_Arkham_Knight_Cover_Art.jpg",
                         "width": 573
                     }
                 ],
-                "16-9": [
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/6/6c/Batman_Arkham_Knight_Cover_Art.jpg",
@@ -564,14 +564,14 @@
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [
+                "4_3": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/commons/6/64/2048_Screenshot.png",
                         "width": 573
                     }
                 ],
-                "16-9": []
+                "16_9": []
             }],
             "slug": "2048"
         },
@@ -612,8 +612,8 @@
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
             "screenshots": [{
-                "4-3": [],
-                "16-9": [
+                "4_3": [],
+                "16_9": [
                     {
                         "height": 1024,
                         "src": "http://upload.wikimedia.org/wikipedia/en/5/52/Flappy_Bird_gameplay.png",
