@@ -33,7 +33,7 @@
             "name": "Nutty Ninjas", 
             "number_of_players": "multiplayer",
             "privacy_policy_url": "http://una-org.github.io/demos.html",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -53,7 +53,7 @@
                         "width": 573
                     }
                 ]
-            },
+            }],
             "slug":"nutty-ninjas",
             "videos": [
                 {
@@ -104,7 +104,7 @@
             "name": "Mario Bros",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -124,7 +124,7 @@
                         "width": 673
                     }
                 ]
-            },
+            }],
             "slug": "mario-bros",
             "videos": [
                 {
@@ -175,7 +175,7 @@
             "name": "Left 4 Dead",
             "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -200,7 +200,7 @@
                         "width": 576
                     }
                 ]
-            },
+            }],
             "slug": "left-4-dead",
             "videos": [
                 {
@@ -251,7 +251,7 @@
             "name": "Minecraft",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [],
                 "16-9": [
                     {
@@ -265,7 +265,7 @@
                         "width": 576
                     }
                 ]
-            },
+            }],
             "slug": "minecraft",
             "videos": [
                 {
@@ -316,7 +316,7 @@
             "name": "Papers Please",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -325,7 +325,7 @@
                     }
                 ],
                 "16-9": []
-            },
+            }],
             "slug": "papers-please",
             "videos": [
                 {
@@ -376,7 +376,7 @@
             "name": "Batman: Arkham Asylum",
             "number_of_players": "multiplayer",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -391,7 +391,7 @@
                         "width": 573
                     }
                 ]
-            },
+            }],
             "slug": "batman-arkham-asylum",
             "videos": [
                 {
@@ -437,7 +437,7 @@
             "name": "Batman: Arkham City",
             "number_of_players": "2",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -451,7 +451,7 @@
                     }
                 ],
                 "16-9": []
-            },
+            }],
             "slug": "batman-arkham-city",
             "videos": [
                 {
@@ -502,7 +502,7 @@
             "name": "Batman: Arkham Knight",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -517,7 +517,7 @@
                         "width": 573
                     }
                 ]
-            },
+            }],
             "slug": "batman-arkham-knight",
             "videos": [
                 {
@@ -563,7 +563,7 @@
             "name": "2048",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [
                     {
                         "height": 1024,
@@ -572,7 +572,7 @@
                     }
                 ],
                 "16-9": []
-            },
+            }],
             "slug": "2048"
         },
         {
@@ -611,7 +611,7 @@
             "name": "Flappy Bird",
             "number_of_players": "1",
             "privacy_policy": "http://cvan.github.io/privacy-policy/",
-            "screenshots": {
+            "screenshots": [{
                 "4-3": [],
                 "16-9": [
                     {
@@ -620,7 +620,7 @@
                         "width": 573
                     }
                 ]
-            },
+            }],
             "slug": "flappy-bird"
         }
     ],
