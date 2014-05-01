@@ -23,10 +23,15 @@ function scriptManager() {
 }
 exports.scriptManager = scriptManager;
 
-function redisClient() {
+function redisClient(callback) {
     var client = redis.createClient(redisURL.port, redisURL.hostname);
     if (redisURL.auth) {
         client.auth(redisURL.auth.split(':')[1]);
+    }
+    if (callback) {
+        client.on('ready', function() {
+            callback(client);
+        });
     }
     return client;
 }
