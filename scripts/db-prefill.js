@@ -232,6 +232,8 @@ function createTestDeveloper(permissions) {
     });
 }
 
+var featured_ranking = 1;
+
 function createGames() {
     return createTestDeveloper(PERM_ADMIN).then(function(devUser) {
         return Promise.all(prefillData.games.map(function(game) {
@@ -240,8 +242,11 @@ function createGames() {
                 .then(function(result) {
                     return postPromise(API_ENDPOINT + '/featured', {
                         _user: devUser.token,
-                        game: result.slug
-                    }, false);
+                        game: result.slug,
+                        rank: featured_ranking
+                    }, false).then(function(result) {
+                        featured_ranking++;
+                    });
                 });
         }));
     });
